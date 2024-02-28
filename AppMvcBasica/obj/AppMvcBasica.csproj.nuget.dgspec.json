@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Treinamento SegLabs\\Projetos\\AppMvcBasica\\AppMvcBasica\\AppMvcBasica.csproj": {}
+    "C:\\Treino\\Projetos\\app-mvc-basica\\AppMvcBasica\\AppMvcBasica.csproj": {}
   },
   "projects": {
-    "C:\\Treinamento SegLabs\\Projetos\\AppMvcBasica\\AppMvcBasica\\AppMvcBasica.csproj": {
+    "C:\\Treino\\Projetos\\app-mvc-basica\\AppMvcBasica\\AppMvcBasica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Treinamento SegLabs\\Projetos\\AppMvcBasica\\AppMvcBasica\\AppMvcBasica.csproj",
+        "projectUniqueName": "C:\\Treino\\Projetos\\app-mvc-basica\\AppMvcBasica\\AppMvcBasica.csproj",
         "projectName": "AppMvcBasica",
-        "projectPath": "C:\\Treinamento SegLabs\\Projetos\\AppMvcBasica\\AppMvcBasica\\AppMvcBasica.csproj",
-        "packagesPath": "C:\\Users\\Marcos Aquino\\.nuget\\packages\\",
-        "outputPath": "C:\\Treinamento SegLabs\\Projetos\\AppMvcBasica\\AppMvcBasica\\obj\\",
+        "projectPath": "C:\\Treino\\Projetos\\app-mvc-basica\\AppMvcBasica\\AppMvcBasica.csproj",
+        "packagesPath": "C:\\Users\\marcos.aquino\\.nuget\\packages\\",
+        "outputPath": "C:\\Treino\\Projetos\\app-mvc-basica\\AppMvcBasica\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Marcos Aquino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marcos.aquino\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,17 +37,16 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -57,6 +59,10 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -64,6 +70,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             }
           },
           "imports": [

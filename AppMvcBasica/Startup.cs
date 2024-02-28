@@ -21,6 +21,8 @@ namespace AppMvcBasica
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddMvc().AddRazorRuntimeCompilation();
             services.AddControllersWithViews();
         }
 
@@ -42,6 +44,7 @@ namespace AppMvcBasica
             app.UseRouting();
 
             app.UseAuthorization();
+            app.MapControllers();
 
             app.MapControllerRoute(
                 name: "default",
